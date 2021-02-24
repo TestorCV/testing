@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+{% block body %}
+
+<div class="container d-flex justify-content-center">
+        <form class="form-signin w-50">
+            <h1 class="h3 mt-5 font-weight-normal">You are the best - {{email}}</h1>
+            <a href="{{url_for('logout')}}" class="btn btn-lg btn-outline-danger btn-block mt-5">Logout</a>
+            <p class="mt-5 mb-3 text-muted">Counter - {{count}}</p>
+        </form>
+    </div>
+{% endblock %}

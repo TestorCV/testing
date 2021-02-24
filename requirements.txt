@@ -1,0 +1,6 @@
+Flask==1.1.2
+Flask-Login==0.5.0
+gunicorn==20.0.4
+Jinja2==2.11.2
+PyMySQL==0.10.0
+Werkzeug==1.0.1
